@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #333;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+  }
+  
+  .logo {
+    cursor: pointer;
+    height: 100%;
+    color: rgb(113, 131, 110);
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+  #home {
+    height: 45rem;
+    border-bottom: 3px solid black ;
+  }
+
+  #home .title {
+    margin-top: 10px;
+  }
+
+  #home h2 {
+    color: rgb(113, 131, 110);
+    font-size: 80px;
+    text-align: center;
+  }
+ 
+  #home h3 {
+    color: rgb(163, 163, 163);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #home p {
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    line-height: 25px;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+  }
+  #home .author {
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+  }
+
+  #Language {
+    
+  }
+  
+  #Language .html{
+  
+  }
+  
+  #Language .css{
+
+  }
